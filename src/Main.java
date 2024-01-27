@@ -16,5 +16,8 @@ public class Main {
                 1991);
         System.out.println(e1);
         System.out.println(e2);
+        System.out.println(e1.compareTo(e2));
+
+
     }
 }

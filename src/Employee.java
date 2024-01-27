@@ -1,4 +1,6 @@
-public class Employee {
+import java.util.Comparator;
+
+public class Employee implements Comparable {
 
     private static final int CURRENT_YEAR = 2024;
 
@@ -76,5 +78,14 @@ public class Employee {
                 "Должность: " + position + "\n\r" +
                 "Телефон: " + phoneNumber + "\n\r" +
                 "Зарплата: " + salary;
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if (!(o instanceof Employee)) {
+            return -1;
+        }
+        Employee newEmployee = (Employee) o;
+        return this.getSalary() - newEmployee.getSalary();
     }
 }

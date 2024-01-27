@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2f4b9460-5dc2-4189-aff6-2ab05cff980a" name="Changes" comment="Начальный коммит">
-      <change afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+    <list default="true" id="2f4b9460-5dc2-4189-aff6-2ab05cff980a" name="Changes" comment="Реализовал класс &quot;Сотрудник&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +58,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706359146930</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Реализовал класс &quot;Сотрудник&quot;">
+      <created>1706360273654</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706360273654</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Начальный коммит" />
-    <option name="LAST_COMMIT_MESSAGE" value="Начальный коммит" />
+    <MESSAGE value="Реализовал класс &quot;Сотрудник&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реализовал класс &quot;Сотрудник&quot;" />
   </component>
 </project>
