@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         Employee e1 = new Employee(
@@ -18,6 +20,19 @@ public class Main {
         System.out.println(e2);
         System.out.println(e1.compareTo(e2));
 
+        Manager m = new Manager(
+                "Петр",
+                "Петров",
+                "Начальник",
+                "789",
+                70000,
+                1980);
+        m.addEmployee(e1);
+        m.addEmployee(e2);
+        System.out.println(m);
+
+        Manager.increaseSalary(Arrays.asList(new Employee[] {e1, e2, m}), 10000);
+        System.out.println(m);
 
     }
 }
